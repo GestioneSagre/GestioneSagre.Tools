@@ -8,8 +8,8 @@ on:
 
 env:
   NET_VERSION: '6.x'
-  PROJECT_NAME: src/GestioneSagre.Models
-  PROJECT_FILE: GestioneSagre.Models.csproj
+  PROJECT_NAME: src/GestioneSagre.Tools
+  PROJECT_FILE: GestioneSagre.Tools.csproj
   
 jobs:
   build:
