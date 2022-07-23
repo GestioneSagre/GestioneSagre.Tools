@@ -7,10 +7,10 @@ namespace GestioneSagre.Tools.TransactionLog;
 
 public class LocalTransactionLogger : ITransactionLogger
 {
-    private readonly IHostingEnvironment env;
+    private readonly IWebHostEnvironment env;
     private readonly SemaphoreSlim semaphore = new SemaphoreSlim(1);
 
-    public LocalTransactionLogger(IHostingEnvironment env)
+    public LocalTransactionLogger(IWebHostEnvironment env)
     {
         this.env = env;
     }
